@@ -47,7 +47,7 @@ func main() {
 			Key:            []byte(record[0]),
 			Value:          []byte(record[0]),
 		}, nil)
-		time.Sleep(15 * time.Second)
+		time.Sleep(100 * time.Millisecond)
 	}
 
 	// Wait for all messages to be delivered
